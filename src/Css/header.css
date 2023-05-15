@@ -1,0 +1,276 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.font-color {
+    color: #B5B5B5;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 41px;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    border-width: 0.1px;
+    border-color: #B5B5B5;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-collapse: collapse;
+    text-decoration: none;
+    outline: none;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #B5B5B5;
+}
+
+span {
+    padding: 0px 8px;
+}
+
+.site-header {
+    width: 100%;
+    overflow-x: hidden;
+    /* margin-bottom: 150px; */
+}
+
+@media (max-width:1024px){
+    .site-header {
+        width: 100%;
+        overflow-x: hidden;
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width:425px){
+
+}
+
+.site-header-top {
+    background-color: #141D38;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-items-left {
+    float: left;
+    margin-left: 30px;
+
+}
+
+.header-items-left .slIcons {
+    font-size: 18px;
+}
+
+.header-items-left .slIcons:hover,
+.header-items-right .rlIcons:hover {
+    color: #23BBB7;
+}
+
+.header-items-right {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.header-items-right .rlIcons {
+    font-size: 18px;
+}
+
+/* navbar */
+
+.site-header-bottom {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#23BBB7;
+    z-index: 100;
+    /* transition: all 0.3s ease; */
+}
+
+.site-header-logo {
+    padding-top: 20px;
+    height: 55px;
+    width: auto;
+}
+
+.site-header-bottom-left {
+    padding: 0px;
+    margin-left: 40px;
+}
+
+.main-menu {
+    padding: 0px;
+}
+
+.main-menu li {
+    border: none;
+}
+
+.main-menu li a {
+    border: none;
+    color:#fff;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0px;
+    letter-spacing: 1px;
+
+}
+
+.main-menu li a:hover {
+    color: #fff;
+    padding: 32px 0px;
+    /* transition: all 0.2s ease-out 0s; */
+    /* text-decoration: underline; */
+}
+
+.main-menu .btn {
+    border: none;
+    border-radius: 0px;
+    padding: 15px 35px;
+    color: #fff;
+    background-color: #23BBB7;
+    margin-left: 25px;
+
+}
+
+.main-menu .btn:hover {
+    background-color: #7141b1;
+}
+
+.active {
+    text-decoration: underline;
+    color: #23BBB7;
+}
+
+.main-menu-side-bar {
+    display: none;
+}
+
+.cancel-btn {
+    display: none;
+}
+
+/* media queries */
+
+/* 1024 */
+
+@media (max-width:1024px) {
+    .site-header-top {
+        display: none;
+    }
+
+    .site-header-bottom {
+        padding: 10px;
+    }
+
+    .site-header-logo {
+        width: 80px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .main-menu-side-bar {
+        display: block;
+        float: right;
+        /* margin-right: 20px; */
+        cursor: pointer;
+        font-size: 25px;
+        color: #fff;
+
+    }
+
+    .main-menu li a{
+        color: #23BBB7;
+        padding: 0px;
+    }
+
+    .main-menu-side-bar:hover {
+        color: #fff;
+    }
+
+    .main-menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        right: 0%;
+        top: 0px;
+        text-align: center;
+        background: red;
+        /* transition: all 0.3s ease; */
+        padding: 0px;
+    }
+
+    .main-menu.hide {
+        display: none;
+    }
+
+    .main-menu.show {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        right: 0%;
+        top: 0px;
+        text-align: center;
+        background: white;
+        /* transition: all 0.3s ease; */
+        padding: 0px;
+    }
+
+
+    .main-menu .cancel-btn {
+        padding: 30px 40px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .main-menu .cancel-btn:hover {
+        color: #23BBB7;
+        cursor: pointer;
+    }
+
+    .main-menu li {
+        display: block;
+        text-align: left;
+
+    }
+
+    .main-menu .btn {
+        display: none;
+    }
+
+    .cancel-btn {
+        display: block;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .main-menu-side-bar {
+        float: right;
+    }
+}

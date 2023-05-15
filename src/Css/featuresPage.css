@@ -1,0 +1,226 @@
+.career-page {
+    padding: 20px 50px;
+}
+
+.career-page .career-page-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:425px) {
+    .career-page .career-page-tabs {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 20px;
+
+    }
+
+    .career-page-tabs .btn {
+        justify-content: center;
+    }
+}
+
+.contract-tab-page {
+    padding: 60px 0px;
+}
+
+
+.contract-tab-page.current {
+    display: block;
+}
+
+.contract-tab-page {
+    display: none;
+}
+
+.single-feature {
+    text-align: left;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    -webkit-transition: all .5s cubic-bezier(.68, -.55, .27, 1.55) 0s;
+    transition: all .5s cubic-bezier(.68, -.55, .27, 1.55) 0s
+}
+
+.single-feature:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.single-feature #icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: #23BBB7;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 4px 6px #0000002a;
+    box-shadow: 0px 4px 6px #0000002a;
+    margin-bottom: 30px
+}
+
+.single-feature h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.single-feature p {
+    line-height: 22px;
+}
+
+.single-feature .button .btn {
+    width: 100%;
+    padding: 12px 30px;
+    font-size: 13px;
+    background-color: #081828;
+    color: #fff;
+}
+
+.single-feature .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #081828;
+    text-align: start
+}
+
+.single-feature .button .btn:hover {
+    background-color: #23BBB7;
+    color: #fff
+}
+
+
+.single-feature .price .amount {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block
+}
+
+.single-feature .price .amount .duration {
+    display: inline-block;
+    font-size: 14px;
+    color: #888;
+    font-weight: 400;
+}
+
+.single-feature .table-content .middle-title {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: black
+}
+
+.single-feature .table-content .table-list li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+    margin-bottom: 13px;
+    color: #081828
+}
+
+.single-feature .table-content .table-list li:last-child {
+    margin: 0
+}
+
+.single-feature .table-content .table-list li i {
+    color:#23BBB7;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 4px
+}
+
+.content {
+    padding: 25px 30px 30px 30px;
+    border: 1px solid #eee;
+    border-radius: 0 0 10px 10px
+}
+
+.text h3 a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #081828
+}
+
+.text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color:#23BBB7;
+    display: block;
+    margin-top: 4px
+}
+
+.blog-content {
+    padding: 30px
+}
+
+.blog-content .category {
+    font-size: 14px;
+    color:#23BBB7;
+    display: inline-block;
+    font-weight: 600
+}
+
+.blog-content .heading {
+    display: block;
+    margin-top: 5px;
+    line-height: 25px
+
+}
+
+.blog-content .heading a {
+    font-size: 19px;
+    color: #081828;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.blog-content .heading a:hover {
+    color:#23BBB7
+}
+
+.blog-content p {
+    display: block;
+    margin-left: -8px
+}
+
+.blog-content .autor {
+    position: relative;
+    padding-left: 62px;
+    margin-top: 30px
+}
+
+.blog-content .autor img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.blog-content .autor .name {
+    color: #666;
+    display: inline-block;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.blog-content .autor .name:hover {
+    color:#23BBB7
+}
+
+/* form */

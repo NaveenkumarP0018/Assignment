@@ -1,0 +1,140 @@
+.account-container .myAccount-container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.account-container .myAccount-container-inner {
+    max-width: 680px;
+    margin: 10px auto;
+    padding-bottom: 50px;
+}
+
+
+
+.account-container button {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: center;
+    outline: none;
+}
+
+
+
+.account-container button :focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.account-container #login {
+    padding: 12px 20px;
+}
+
+.account-container #login {
+    float: left;
+    width: 50%;
+}
+
+.account-container .clearfix {
+    padding-bottom: 20px;
+}
+
+
+
+.account-container .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.account-container .input-area {
+    margin-top: 20px;
+}
+
+
+
+.account-container .input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.account-container .icon {
+    padding: 17.5px;
+    margin-top: 4px;
+    background-color: #eee;
+    color: #16d0b0;
+    text-align: center;
+    border: 1px solid #ccc;
+    max-width: 40px;
+    min-width: 40px;
+    border-right: 0;
+    font-size: 14px;
+    height: 100%;
+    border-radius: 2px;
+}
+
+
+
+.account-container input[type=text],
+.account-container input[type=password] {
+    width: 100% !important;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    color: #777;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 3.428571;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-left: 0;
+}
+
+
+
+.account-container input[type=text]:focus,
+.account-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-color: red;
+}
+
+
+
+.account-container .signin {
+    background-color: #16d0b0;
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 15px;
+    height: 45px;
+}
+
+
+
+@media screen and (max-width: 300px) {
+    .account-container .Login {
+        width: 100%;
+    }
+}

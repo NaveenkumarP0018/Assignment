@@ -1,0 +1,195 @@
+.contact-page-section-1 {
+    padding: 10% 3%;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.contact-page-section-1 h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.contact-page-section-2 {
+    padding: 200px 60px;
+}
+
+.contact-page-section-2-left h3 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #7141b1;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+.contact-page-section-2-left h1 {
+    margin-bottom: 0;
+    line-height: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1b1d21;
+}
+
+.contact-page-section-2-left p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #6d6d6d;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+}
+
+.contact-page-section-2-left {
+    margin-right: 50px;
+}
+
+.contact-page-section-2-left #card {
+    padding: 20px;
+    width: 80%;
+    border: none;
+    margin: 5px;
+}
+
+.contact-page-section-2-left #card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.contact-page-section-2-left #card .card-icon {
+    font-size: 30px;
+}
+
+.contact-page-section-2-left #card .cardContent {
+    padding-left: 20px;
+}
+
+.contact-page-section-2-left #card .cardContent h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1b1d21;
+    margin-bottom: 0;
+}
+
+.contact-page-section-2-left #card .cardContent p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6d6d6d;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.contact-page-section-2-right {
+    padding: 10px;
+}
+
+.contact-page-section-2-right .contact-section-2-form {
+    background-image: linear-gradient(90deg, #23bbb7 0%, #7141b1 100%);
+    color: #fff;
+    padding: 40px;
+}
+
+.contact-section-2-form h1 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+.contact-section-2-form h6 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.contact-section-2-form #form-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 10px 0px;
+}
+
+.contact-section-2-form #form-input-text {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 10px 0px;
+    height: 150px;
+    vertical-align: top;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.contact-section-2-form #form-input:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff
+}
+
+.contact-section-2-form .form-btn {
+    font-weight: 800;
+    background: #fff;
+    color: #1b1d21;
+    font-size: 14px;
+    padding: 14px 30px 14px 30px;
+    line-height: 1.42857143;
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.contact-section-2-form .form-btn:hover {
+    background: #7141b1;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+@media (max-width:786px) {
+    .contact-page-section-2-left {
+        margin-right: 0px;
+    }
+    .contact-page-section-2{
+        padding: 100px 20px;
+        overflow: hidden;
+    }
+
+}
